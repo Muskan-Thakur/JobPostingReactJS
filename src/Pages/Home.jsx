@@ -2,7 +2,6 @@ import React from 'react';
 import HomeSlider from '../Components/HomeSlider';
 import JobList from './JobList';
 import JobCategory from './JobCategory';
-import About from './About';
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
@@ -151,9 +150,9 @@ export default function Home() {
             <i className="fa fa-check text-info me-3" />
             Streamlined Job Search
           </p>
-          <a className="btn btn-info py-3 px-5 mt-3" to="">
+          <Link className="btn btn-info py-3 px-5 mt-3" to="/about">
             Read More
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -173,9 +172,9 @@ export default function Home() {
         <div className="col-lg-3 ">
           <img src="img/a.jpg" className="img-fluid1 mb-3"  style={{height:"14em"}}/>
           <h3 clas="">
-            <a to="#">
+            <Link to="#">
               <span className="text-info fw-bold fs-4">Lawson  Arnold</span>
-            </a>
+            </Link>
           </h3>
           <span className="d-block position mb-2">CEO, Founder, Atty.</span>
           <i>
@@ -183,7 +182,7 @@ export default function Home() {
             at the coast of the Semantics, a large language ocean.
           </i>
           <p className="mb-5">
-            <a to="#" className="text-info fw-bold">Learn More </a>
+            <Link to="#" className="text-info fw-bold">Learn More </Link>
           </p>
         </div>
         {/* End Column 1 */}
@@ -191,9 +190,9 @@ export default function Home() {
         <div className=" col-lg-3">
           <img src="img/b.jpg" className="img-fluid1 mb-3" />
           <h3 clas="">
-            <a to="#">
+            <Link to="#">
               <span className="text-info fw-bold fs-4">JeremyWalker</span> 
-            </a>
+            </Link>
           </h3>
           <span className="d-block position mb-2">CEO, Founder, Atty.</span>
           <i>
@@ -201,9 +200,9 @@ export default function Home() {
             at the coast of the Semantics, a large language ocean.
           </i>
           <p className="mb-0">
-            <a to="#" className="text-info fw-bold">
+            <Link to="#" className="text-info fw-bold">
               Learn More 
-            </a>
+            </Link>
           </p>
         </div>
         {/* End Column 2 */}
@@ -211,9 +210,9 @@ export default function Home() {
         <div className=" col-lg-3">
           <img src="img/c.jpg" className="img-fluid1 mb-3"  style={{height:"14em"}}/>
           <h3 clas="">
-            <a to="#">
+            <Link to="#">
               <span className="text-info fw-bold fs-4">Patrik White</span> 
-            </a>
+            </Link>
           </h3>
           <span className="d-block position mb-2">CEO, Founder, Atty.</span>
           <i>
@@ -221,9 +220,9 @@ export default function Home() {
             at the coast of the Semantics, a large language ocean.
           </i>
           <p className="mb-0">
-            <a to="#" className="text-info fw-bold">
+            <Link to="#" className="text-info fw-bold">
               Learn More <span className="icon-arrow_forward" />
-            </a>
+            </Link>
           </p>
         </div>
         {/* End Column 3 */}
@@ -231,9 +230,9 @@ export default function Home() {
         <div className="col-lg-3 ">
           <img src="img/d.png" className="img-fluid1 mb-2" style={{height:"14em"}}/>
           <h3 clas="">
-            <a to="#">
+            <Link to="#">
               <span className="fw-bold fs-4 text-info">Kathryn Ryan</span> 
-            </a>
+            </Link>
           </h3>
           <span className="d-block position mb-2">CEO, Founder, Atty.</span>
           <i>
@@ -241,9 +240,9 @@ export default function Home() {
             at the coast of the Semantics, a large language ocean.
           </i>
           <p className="mb-0">
-            <a to="#" className="text-info fw-bold">
+            <Link to="#" className="text-info fw-bold">
               Learn More 
-            </a>
+            </Link>
           </p>
         </div>
         {/* End Column 4 */}

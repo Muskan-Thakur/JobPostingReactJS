@@ -7,16 +7,16 @@ function About() {
 
    <div className="top wow fadeInUp" data-wow-delay="0.1s" style={{backgroundImage: "url(img/slideee.jpg)"}}>
   <div className="content">
-    <h2 className='fw-bold '>CareerLink: Where Your Future Begins Today!</h2>
-    <i className="">" Welcome to CareerLink, your premier destination for connecting talented professionals with exciting career opportunities. Founded in 2010, CareerLink has quickly emerged as a leader in the online job search industry, revolutionizing the way job seekers and employers connect.
+    <h2 className='fw-bold '>JobEntry: Where Your Future Begins Today!</h2>
+    <i className="">" Welcome to JobEntry, your premier destination for connecting talented professionals with exciting career opportunities. Founded in 2010, JobEntry has quickly emerged as a leader in the online job search industry, revolutionizing the way job seekers and employers connect.
 
-At CareerLink, we understand the challenges and complexities of the job search process. That's why we've created a user-friendly platform that empowers job seekers to find their dream jobs with ease. With thousands of job listings spanning diverse industries and skill levels, we're committed to helping individuals take the next step in their careers.
+At JobEntry, we understand the challenges and complexities of the job search process. That's why we've created a user-friendly platform that empowers job seekers to find their dream jobs with ease. With thousands of job listings spanning diverse industries and skill levels, we're committed to helping individuals take the next step in their careers.
 
-Our mission is simple: to bridge the gap between talented professionals and top employers, facilitating meaningful connections that drive success for both parties. Whether you're a recent graduate embarking on your career journey or an experienced professional seeking new opportunities, CareerLink is here to support you every step of the way.
+Our mission is simple: to bridge the gap between talented professionals and top employers, facilitating meaningful connections that drive success for both parties. Whether you're a recent graduate embarking on your career journey or an experienced professional seeking new opportunities, JobEntry is here to support you every step of the way.
 
-With innovative features such as personalized job recommendations, resume building tools, and expert career advice, CareerLink is more than just a job search platform—it's a comprehensive resource for career development and growth. Our dedicated team of professionals is passionate about helping you achieve your career goals and unlocking your full potential.
+With innovative features such as personalized job recommendations, resume building tools, and expert career advice, JobEntry is more than just a job search platform—it's a comprehensive resource for career development and growth. Our dedicated team of professionals is passionate about helping you achieve your career goals and unlocking your full potential.
 
-Join the CareerLink community today and discover endless possibilities for career advancement. Together, let's redefine the future of work and create a world where every individual can thrive professionally. Your dream job awaits—start your journey with CareerLink today!""</i>
+Join the JobEntry community today and discover endless possibilities for career advancement. Together, let's redefine the future of work and create a world where every individual can thrive professionally. Your dream job awaits—start your journey with JobEntry today!""</i>
   </div>
 </div>
 {/* company overview end */}
