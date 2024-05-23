@@ -78,7 +78,7 @@ const SelectedJob = () => {
     
     useEffect(()=>{
     appliedJobData.map((data)=>{
-        if(data.username===secureLocalStorage.getItem('key')?.username && data.companyName==jobData?.companyName && data.jobTitle==jobData?.jobTitle)
+        if(data.email===secureLocalStorage.getItem('key')?.email && data.companyName==jobData?.companyName && data.jobTitle==jobData?.jobTitle)
         {
             setIsApplied(true);
         }
@@ -94,7 +94,7 @@ const SelectedJob = () => {
     const body={
         jobTitle:jobData?.jobTitle,
         companyName:jobData?.companyName,
-        username:secureLocalStorage.getItem('key')?.username
+        email:secureLocalStorage.getItem('key')?.email
     }
     console.log("body",body)
     const data=await postData("https://jobs-teal.vercel.app/applyJob",body)
